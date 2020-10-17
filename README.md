@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# 0x5c's Public Keys
 
-You can use the [editor on GitHub](https://github.com/0x5c/publickeys/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+My public keys, current and revoked.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Note that "Nonante Deux" is not my real name ;)
 
-### Markdown
+## Current Key
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Download: [[ASC]](current/0x5c.asc) [[GPG]](current/0x5c.gpg)
+```http
+Name: Nonante Deux (0x5c)
+Email: dev@0x5c.io, me@0x5c.io
+Sign-Certify: 0769EB87956FACD6FBD8F4C7A57F71C3176B9581
+Encrypt: B2E5F28E3F09027E
+Authenticate: C09494D82D524CDC
+Date: 2020-10-16
+Expiration: none
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+---
 
-### Jekyll Themes
+## Revoked Keys
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0x5c/publickeys/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Download (revoked): [[ASC]](revoked/OLD_dev_AT_0x5c.io/pubkey.asc) [[GPG]](revoked/OLD_dev_AT_0x5c.io/pubkey.gpg) [[Revocation Cert]](revoked/OLD_dev_AT_0x5c.io/revoke.asc)
+```http
+Name: nonante deux
+Email: dev@0x5c.io
+Key-ID: 889894DE2BEA2BCA309C5B9482039FC95E3FE970
+Date: 2019-12-04
+Expiration: 2020-10-17
+Revoked-On: 2020-10-17
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Download (revoked): [[ASC]](revoked/0x5c.dev_AT_gmail.com/pubkey.asc) [[GPG]](revoked/0x5c.dev_AT_gmail.com/pubkey.gpg) [[Revocation Cert]](revoked/0x5c.dev_AT_gmail.com/revoke.asc)
+```http
+Name: nonante deux
+Email: 0x5c.dev@gmail.com
+Key-ID: 7860B1D08441D9C96E403823CCE14303E194D25E
+Date: 2018-01-09
+Expiration: 2020-10-17
+Revoked-On: 2020-10-17
+```
